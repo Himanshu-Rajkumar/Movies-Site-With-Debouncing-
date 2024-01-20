@@ -9,7 +9,7 @@ Button.addEventListener("click", () => {
     const searchTerm = input.trim()
 
     const apiKey = "f69a2a22";
-    const apiUrl = `http://www.omdbapi.com/?t=${encodeURIComponent(searchTerm)}&apikey=${apiKey}`;
+    const apiUrl = `https://www.omdbapi.com/?t=${encodeURIComponent(searchTerm)}&apikey=${apiKey}`;
 
 
 
